@@ -30,3 +30,12 @@ vendors-embedded.db
 # Common local env files
 .env
 .env.*
+
+.streamlit/secrets.toml
+*.db
+*.sqlite
+*.csv
+.venv/
+__pycache__/
+.DS_Store
+
