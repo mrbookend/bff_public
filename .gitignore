@@ -14,3 +14,19 @@ vendors-embedded.db
 vendors-embedded.db-wal
 vendors-embedded.db-shm
 
+# Streamlit secrets (never commit the real file)
+.streamlit/secrets.toml
+
+# Local databases
+vendors.db
+vendors-embedded.db
+*.db
+*.sqlite
+*.sqlite3
+
+# App exports (optional)
+*.csv
+
+# Common local env files
+.env
+.env.*
